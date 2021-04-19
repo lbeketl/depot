@@ -1,4 +1,12 @@
 .store {
+  .counter {
+    padding: 5px;
+    color: #282;
+    text-align: center;
+    b {
+      color: red;;
+    }
+  }
   max-width: 80em;
   ul.catalog {
     border-top: solid 0.250em;
