@@ -41,3 +41,19 @@
       background-color: #992;
     }
   }
+
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    .checkout {
+      margin-left: 10px;
+      background-color: #bfb!important;
+      border: solid thin #888!important;
+      color: black!important;
+      font-weight: bold!important;
+      &:hover {
+        background-color: #9d9!important;
+      }
+    }
+ 
+  }

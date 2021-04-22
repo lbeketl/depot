@@ -9,6 +9,7 @@ class LineItemsController < ApplicationController
 
   # GET /line_items/1 or /line_items/1.json
   def show
+
   end
 
   # GET /line_items/new
@@ -62,6 +63,7 @@ class LineItemsController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to store_index_url, notice: "Line item was successfully destroyed." }
+      format.js { @current_item = @line_item }
       format.json { head :no_content }
     end
   end
